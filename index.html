@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>
+        <title>Personal Task Organizer</title>
+    </head>
+    <body>
+        <section class="todo">
+            <h2>Personal Task Organizer</h2>
+            <div class="input">
+                <input 
+                type="text" 
+                class="inputField" 
+                id="todoInput" 
+                placeholder="Add new task" 
+                />
+                <button class="button">Add</button>
+            </div>
+            <ul class="scroll">
+                <li id="todoList"></li>
+            </ul>
+            <div>
+                <hr class="counter" />
+                <div class="counter-container">
+                    <p><span id="todoCount">0</span> items total</p>
+                    <button id="DeleteButton">Remove</button>
+                    <button id="ClearButton">Clear List</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <p class="madeBy">Made By</p>
+                <p class="author">Pirdnani Shaan Satoshi Lalit</p>
+            </div>
+        </footer>
+    </body>
+</html>
